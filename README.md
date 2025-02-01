@@ -587,7 +587,7 @@ npm install
 ## Team
 
 ### Core Team
-- **Pale Imodoi**
+- **James EPale Imodoi**
   - Lead Developer & Architect
   - Blockchain Specialist
   - AI Integration Expert
