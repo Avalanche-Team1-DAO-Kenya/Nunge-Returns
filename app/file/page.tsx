@@ -1329,19 +1329,7 @@ export default function FilePage() {
           </DialogFooter>
         </DialogContent>
       </Dialog>
-  
-      {/* NFT Viewer */}
-      {filingStatus.completed && (
-        <div className="mt-8">
-          <NFTViewer pin={formData.pin} />
-        </div>
-      )}
-  
-      {/* Blockchain Logs */}
-      <div className="mt-8">
-        <BlockchainLogs />
-      </div>
-  
+
       {/* Transaction Receipt */}
       {transactionReceipt && (
         <div className="mt-8">
@@ -1352,6 +1340,12 @@ export default function FilePage() {
           />
         </div>
       )}
+  
+      {/* Blockchain Logs */}
+      <div className="mt-8">
+        <BlockchainLogs />
+      </div>
+  
     </div>
   )
 }
